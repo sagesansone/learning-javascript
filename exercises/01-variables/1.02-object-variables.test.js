@@ -28,16 +28,14 @@ TASK #1
 	Create an array variable named fruits and create at least two elements
 	that are string values in the array that are names of fruits.
 */
-
-// your code goes here
+let fruits = ["appple", "pear"]
 
 /* 
 TASK #2
 	Create an empty array variable named mixedData.
 */
 
-// your code goes here
-
+let mixedData = []
 /*
 TASK #3
 	Arrays can hold more than one type of data at a time, they can even hold 
@@ -53,7 +51,9 @@ TASK #3
 	3: Push a boolean value
 */
 
-// your code goes here
+mixedData.push(12);
+mixedData.push("Car");
+mixedData.push(true);
 
 /* ****************************************************************************
    ***           DO NOT MODIFY ANYTHING AFTER THIS SECTION                  ***
